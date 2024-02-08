@@ -1,0 +1,27 @@
+/* Variables */
+:root {
+  --blue-primary: #0D63C9;
+  --blue-light: #1A72DB;
+  --black-primary: #000000;
+  --white-color: #ffffff;
+  --text-primary: #222;
+  --text-gray: #94a3b8;
+  --red-color: #ed4343;
+  --border-light: rgba(255, 255, 255, 0.3);
+}
+
+// Global styles
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.MuiTypography-root, .MuiButtonBase-root, .MuiFormLabel-root, .MuiInputBase-root {
+  font-family: "Poppins", sans-serif !important;
+}
+.img-fluid {
+  max-width: 100%;
+}
+.MuiButtonBase-root {
+  text-transform: capitalize !important;
+}

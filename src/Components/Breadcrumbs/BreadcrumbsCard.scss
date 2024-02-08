@@ -1,0 +1,15 @@
+.breadcrumb-wrapper {
+  margin-bottom: 25px;
+  .MuiBreadcrumbs-ol {
+    .MuiBreadcrumbs-li {
+      font-size: 14px;
+      p {
+        color: var(--text-primary);
+      }
+      a {
+        color: var(--blue-primary);
+        text-decoration: none;
+      }
+    }
+  }
+}
